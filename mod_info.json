@@ -1,0 +1,12 @@
+{
+    "id": "moreconsolecommands",
+    "name": "More Console Commands",
+    "author": "Audax",
+    "version": "0.0.1",
+    "description": "Additional console commands for starsector modders.",
+    "gameVersion": "0.97a",
+    "jars": [
+        "MoreConsoleCommands.jar"
+    ],
+    "modPlugin":"moreconsolecommands.ModPlugin"
+}
