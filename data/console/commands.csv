@@ -1,0 +1,2 @@
+command,class,tags,syntax,help,
+AddDevItems,moreconsolecommands.commands.AddDevItems,"cheat,campaign",addevitems (no arguments),activates infinite fuel/supplies and adds various items for testing purposes.
