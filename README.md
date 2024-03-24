@@ -1,4 +1,4 @@
-# APTLY SIMPLE HULLMODS
+# MORE CONSOLE COMMANDS
 Additional console commands for starsector modders.
 
 ## Credits
