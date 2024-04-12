@@ -1,5 +1,6 @@
 package moreconsolecommands.commands;
 
+import com.fs.starfarer.api.Global;
 import org.lazywizard.console.BaseCommand;
 import org.lazywizard.console.Console;
 import org.lazywizard.console.commands.*;
@@ -35,7 +36,8 @@ public class AddDevItems implements BaseCommand {
         new AddCrew().runCommand(args, context);
         new Repair().runCommand(args, context);
         new Storage().runCommand(args, context);
-        new DevMode().runCommand(args, context);
+        if (!Global.getSettings().isDevMode())
+            new DevMode().runCommand(args, context);
 
         return BaseCommand.CommandResult.SUCCESS;
     }
