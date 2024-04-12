@@ -21,6 +21,7 @@ public class AddDevItems implements BaseCommand {
         new AllHullmods().runCommand(args, context);
         new AllWings().runCommand(args, context);
         new AllWeapons().runCommand(args, context);
+        new AllBlueprints().runCommand(args, context);
         new AddShip().runCommand("onslaught", context);
         new AddShip().runCommand("paragon", context);
         new AddShip().runCommand("conquest", context);

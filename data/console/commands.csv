@@ -1,2 +1,3 @@
 command,class,tags,syntax,help,
-AddDevItems,moreconsolecommands.commands.AddDevItems,"cheat,campaign",addevitems (no arguments),activates infinite fuel/supplies and adds various items for testing purposes.
+AddDevItems,moreconsolecommands.commands.AddDevItems,"cheat,campaign",addevitems (no arguments),activates infinite fuel/supplies and adds various items for testing purposes.,
+AddBlueprint,moreconsolecommands.commands.AddBlueprint,"cheat,campaign",addblueprint <item_id>,Unlocks a specific blueprint regardless of whether or not it is obtainable or hidden,
