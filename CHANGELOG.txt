@@ -1,3 +1,9 @@
+### 0.1.3
+- Release 0.1.1
+- Update commands.csv
+- Add AllBlueprint command to AddDevItems command
+- Add AddBlueprint console command
+
 ### 0.1.1
 - Release 0.1.1
 - Fix zip file name not properly set
@@ -5,9 +11,9 @@
 ### 0.1.0
 - Release 0.1.0
 - Add README.md
-- Add github workflow script
-- Add adddevitems command
+- Add GitHub workflow script
+- Add AddDevItems console command
 - Add initial mod files
 
 ### 0.0.1
-- Add initial ide files
+- Add initial IDE files

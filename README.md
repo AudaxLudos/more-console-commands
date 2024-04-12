@@ -1,4 +1,4 @@
-# MORE CONSOLE COMMANDS
+# More Console Commands
 Additional console commands for starsector modders.
 
 ## Credits
