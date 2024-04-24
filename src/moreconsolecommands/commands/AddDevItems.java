@@ -33,6 +33,8 @@ public class AddDevItems implements BaseCommand {
         new AddShip().runCommand("mora", context);
         new AddSupplies().runCommand(args, context);
         new AddFuel().runCommand(args, context);
+        new AddMarines().runCommand("2000", context);
+        new AddMarinesXP().runCommand("2000", context);
         new AddCrew().runCommand(args, context);
         new Repair().runCommand(args, context);
         new Storage().runCommand(args, context);
