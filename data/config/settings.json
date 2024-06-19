@@ -1,0 +1,5 @@
+{
+  "plugins": {
+    "mcc_combat_plugin": "moreconsolecommands.CombatPlugin"
+  }
+}

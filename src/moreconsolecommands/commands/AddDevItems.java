@@ -2,6 +2,7 @@ package moreconsolecommands.commands;
 
 import com.fs.starfarer.api.Global;
 import moreconsolecommands.ModPlugin;
+import moreconsolecommands.Utils;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.lazywizard.console.BaseCommand;
@@ -19,16 +20,16 @@ public class AddDevItems implements BaseCommand {
         }
 
         try {
-            JSONObject mccData = Global.getSettings().loadJSON(ModPlugin.MCC_SETTINGS_FILE);
+            JSONObject mccData = Global.getSettings().loadJSON(Utils.MCC_SETTINGS_FILE);
 
             new AddXP().runCommand("20000000", context);
             new AddCredits().runCommand("100000000", context);
             new AddStoryPoints().runCommand("1000", context);
             new AddSkillPoints().runCommand("100", context);
-            if (!mccData.getBoolean("mcc_infinite_supplies")) {
+            if (!Utils.getBoolean(mccData, "mcc_infinite_supplies")) {
                 new InfiniteSupplies().runCommand("", BaseCommand.CommandContext.CAMPAIGN_MAP);
             }
-            if (!mccData.getBoolean("mcc_infinite_fuel")) {
+            if (!Utils.getBoolean(mccData, "mcc_infinite_fuel")) {
                 new InfiniteFuel().runCommand("", BaseCommand.CommandContext.CAMPAIGN_MAP);
             }
             new AllHullmods().runCommand(args, context);

@@ -1,0 +1,22 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+mcc_dev_mode_header,Dev Mode Header,Header,Dev Mode,,,,,CAMPAIGN
+mcc_dev_mode,Dev mode,Boolean,false,,Default value: false,,,CAMPAIGN
+,,,,,,,,
+mcc_infinite_supplies_header,Infinite Supplies Header,Header,Infinite Supplies,,,,,CAMPAIGN
+mcc_infinite_supplies,Infinite Supplies,Boolean,false,,Default value: false,,,CAMPAIGN
+,,,,,,,,
+mcc_infinite_fuel_header,Infinite Fuel Header,Header,Infinite Fuel,,,,,CAMPAIGN
+mcc_infinite_fuel,Infinite Fuel,Boolean,false,,Default value: false,,,CAMPAIGN
+,,,,,,,,
+mcc_combat_god_mode_header,Combat Simulation God Mode Header,Header,Combat Simulation God Mode,,,,,SIMULATION
+mcc_combat_god_mode,Combat Simulation God Mode,Boolean,false,,Default value: false,,,SIMULATION
+,,,,,,,,
+mcc_combat_infinite_flux_header,Combat Simulation Infinite Flux Header,Header,Combat Simulation Infinite Flux,,,,,SIMULATION
+mcc_combat_infinite_flux,Combat Simulation Infinite Flux,Boolean,false,,Default value: false,,,SIMULATION
+,,,,,,,,
+mcc_combat_infinite_cr_header,Combat Simulation Infinite CR Header,Header,Combat Simulation Infinite CR,,,,,SIMULATION
+mcc_combat_infinite_cr,Combat Simulation Infinite CR,Boolean,false,,Default value: false,,,SIMULATION
+,,,,,,,,
+mcc_combat_infinite_ammo_header,Combat Simulation Infinite Ammo Header,Header,Combat Simulation Infinite Ammo,,,,,SIMULATION
+mcc_combat_infinite_ammo,Combat Simulation Infinite Ammo,Boolean,false,,Default value: false,,,SIMULATION
+,,,,,,,,
