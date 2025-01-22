@@ -34,16 +34,7 @@ public class AddMinCrew implements BaseCommand {
             return CommandResult.WRONG_CONTEXT;
         }
 
-        if (args.isEmpty()) {
-            return runCommand("" + getNeededMinCrew(
-                    Global.getSector().getPlayerFleet()), context);
-        }
-
-        if (!isInteger(args)) {
-            return CommandResult.BAD_SYNTAX;
-        }
-
-        final int amount = Integer.parseInt(args);
+        final int amount = getNeededMinCrew(Global.getSector().getPlayerFleet());
         final CampaignFleetAPI player = Global.getSector().getPlayerFleet();
         final CargoAPI cargo = player.getCargo();
 
