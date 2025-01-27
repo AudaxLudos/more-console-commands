@@ -29,8 +29,8 @@ public class GotoEntityWithTag implements BaseCommand {
         }
 
         SectorEntityToken firstEntityWithTag = entitiesWithTag.get(0);
-        new GoTo().runCommand(firstEntityWithTag.getStarSystem().getNameWithNoType(), context);
         new GoTo().runCommand(firstEntityWithTag.getStarSystem().getId(), context);
+        new GoTo().runCommand(firstEntityWithTag.getId(), context);
         return CommandResult.SUCCESS;
     }
 }
