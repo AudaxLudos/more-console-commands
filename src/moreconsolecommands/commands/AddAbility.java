@@ -26,7 +26,7 @@ public class AddAbility implements BaseCommand {
         }
 
         Global.getSector().getCharacterData().addAbility(args);
-        Console.showMessage("Added " + abilitySpec.getName() + "ability");
+        Console.showMessage("Added " + abilitySpec.getName() + " ability to the player");
         return CommandResult.SUCCESS;
     }
 }
