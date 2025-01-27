@@ -1,5 +1,7 @@
 command,class,tags,syntax,help,
 AddBlueprint,moreconsolecommands.commands.AddBlueprint,"cheat,campaign",addblueprint <item_id>,Unlocks a specific blueprint regardless of whether or not it is obtainable or hidden,
 AddBlueprintItem,moreconsolecommands.commands.AddBlueprintItem,"cheat,campaign",addblueprintitem <item_id or item_name>,Adds a blueprint/modspec to the player's inventory regardless of whether or not it is obtainable or hidden,
-AddDevItems,moreconsolecommands.commands.AddDevItems,"cheat,campaign",addevitems (no arguments),activates infinite fuel/supplies and adds various items for testing purposes.,
+AddDevItems,moreconsolecommands.commands.AddDevItems,"cheat,campaign",addevitems (no arguments),Activates infinite fuel/supplies and adds various items for testing purposes.,
 AddMinCrew,moreconsolecommands.commands.AddMinCrew,"cheat,campaign",addmincrew (no arguments),Adds or removes crew to equal the needed minimum crew amount.,
+GotoEntityWithTag,moreconsolecommands.commands.GotoEntityWithTag,"cheat,campaign",gotoentitywithtag <tag>,Goto the first entity with specific tag,
+,,,,,
