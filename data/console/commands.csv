@@ -6,3 +6,5 @@ AddDevItems,moreconsolecommands.commands.AddDevItems,"cheat,campaign",addevitems
 AddMinCrew,moreconsolecommands.commands.AddMinCrew,"cheat,campaign",addmincrew (no arguments),Adds or removes crew to equal the needed minimum crew amount.,
 GotoEntityWithTag,moreconsolecommands.commands.GotoEntityWithTag,"cheat,campaign",gotoentitywithtag <tag>,Goto the first entity with specific tag,
 SpawnGhost,moreconsolecommands.commands.SpawnGhost,"cheat,campaign",spawnghost (no arguments),Spawn a random sensor ghost in hyperspace,
+SetActivePersonRep,moreconsolecommands.commands.SetActivePersonRep,"cheat,campaign",setactivepersonrep <replevel> <value> OR <value>,Adjusts the reputation of an active person in an interaction dialog,
+,,,,,
