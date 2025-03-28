@@ -4,7 +4,7 @@
     "author": "Audax",
     "version": "0.1.7",
     "description": "Additional console commands for starsector modders.",
-    "gameVersion": "0.97a",
+    "gameVersion": "0.98a",
     "jars": [
         "MoreConsoleCommands.jar"
     ],
