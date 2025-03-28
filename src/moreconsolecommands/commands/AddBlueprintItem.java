@@ -139,7 +139,7 @@ public class AddBlueprintItem implements BaseCommand {
 
         for (HullModSpecAPI h : Global.getSettings().getAllHullModSpecs()) {
             if (Objects.equals(h.getId(), specId)) {
-                type = Items.MODSPEC;
+                type = Items.TAG_MODSPEC;
             }
         }
 
